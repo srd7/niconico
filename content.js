@@ -5,5 +5,5 @@
     button.click();
     console.info("closed");
   }
-  setTimeout(close, 500);
+  setTimeout(close, 100);
 })();
