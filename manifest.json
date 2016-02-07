@@ -1,8 +1,8 @@
 {
   "name": "ニコニコニュース自動非表示",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "manifest_version": 2,
-  "description": "ニコニコ動画上部のニコニコニュースを自動的にオフにします",
+  "description": "ニコニコ動画上部のニコニコニュースを見えなくします",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
