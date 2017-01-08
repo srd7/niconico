@@ -12,6 +12,9 @@
   function close() {
     var button, checker;
     if (isHTML5Player) {
+      if ($(".Marquee-item").css("display") !== "none") {
+        $(".Marquee-item").hide();
+      }
       button = $(".DefaultAnimator-excludeButton")[0];
       if (button) {
         button.click();
