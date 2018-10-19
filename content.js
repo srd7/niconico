@@ -2,7 +2,7 @@
   var isHTML5Player = $(".textMarqueeOuter").length === 0;
   // Hide the ad area.
   if (isHTML5Player) {
-    $(".Marquee-itemArea").hide();
+    $(".Marquee").hide();
     console.info("[Niconico Ad Closer] Hiding the ad area for HTML5 Player.");
   } else {
     $(".textMarqueeOuter").hide();
@@ -12,7 +12,7 @@
   function close() {
     var button, checker;
     if (isHTML5Player) {
-      if ($(".Marquee-itemArea").css("display") !== "none") {
+      if ($(".Marquee").css("display") !== "none") {
         $(".Marquee-item").hide();
       }
       button = $(".DefaultAnimator-excludeButton")[0];

@@ -1,6 +1,6 @@
 {
   "name": "ニコニコニュース自動非表示",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "manifest_version": 2,
   "description": "ニコニコ動画上部のニコニコニュースを見えなくします",
   "icons": {
@@ -10,7 +10,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.nicovideo.jp/watch/*"],
+      "matches": ["https://www.nicovideo.jp/watch/*"],
       "js": ["jquery-2.1.4.min.js", "content.js"]
     }
   ]
